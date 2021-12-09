@@ -37,7 +37,7 @@ export const Header = (props) => {
                     type="text"
                     name='src'
                     onChange={(event) => props.handleFormData(event)}
-                    value={props.formData.src}/>
+                    value={props.formData.src} />
             </form>
         </nav>
     )
